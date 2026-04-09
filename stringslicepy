@@ -1,0 +1,17 @@
+def slice_string(text, start, end):
+    return text[start:end]
+
+def slice_from_start(text, length):
+    return text[:length]
+
+def slice_from_end(text, length):
+    return text[-length:]
+
+def slice_step(text, start, end, step):
+    return text[start:end:step]
+
+text = "Hello, World!"
+print(slice_string(text, 0, 5))
+print(slice_from_start(text, 5))
+print(slice_from_end(text, 6))
+print(slice_step(text, 0, 13, 2))
