@@ -13,5 +13,7 @@ def slice_step(text, start, end, step):
 text = "Hello, World!"
 print(slice_string(text, 0, 5))
 print(slice_from_start(text, 5))
+print(slice_from_end(text, 4))
 print(slice_from_end(text, 6))
+print(slice_string(text, 0, 10))
 print(slice_step(text, 0, 13, 2))
